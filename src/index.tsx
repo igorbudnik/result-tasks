@@ -2,14 +2,15 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
-import Demo from "./demo";
+import Demo from "./demoTask1";
+import Demo2 from "./demoTask2";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Demo />
+    <Demo2 />
   </React.StrictMode>
 );
 
