@@ -4,13 +4,14 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import Demo from "./demoTask1";
 import Demo2 from "./demoTask2";
+import Demo3 from "./demoTask3";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Demo2 />
+    <Demo3 />
   </React.StrictMode>
 );
 
