@@ -6,13 +6,14 @@ import Demo from "./demoTask1";
 import Demo2 from "./demoTask2";
 import Demo3 from "./demoTask3";
 import Demo4 from "./demoTask4";
+import Demo5 from "./demoAdditionalTask1";
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Demo4 />
+    <Demo5 />
   </React.StrictMode>
 );
 
