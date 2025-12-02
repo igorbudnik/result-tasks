@@ -1,4 +1,4 @@
-import React from "react";
+import React, { FormEvent, FormEventHandler } from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
@@ -8,13 +8,20 @@ import Demo3 from "./demoTask3";
 import Demo4 from "./demoTask4";
 import Demo5 from "./demoAdditionalTask1";
 import { Demo6 } from "./demoAdditionalTask2";
+import Singin from "./singin/formTaskSingin";
+import Singup from "./singup/formTaskSingUp";
+
+const onSubmit = (data: { email: string; password: string }) => {
+  console.log(data);
+};
 
 const root = ReactDOM.createRoot(
   document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <Demo6 />
+    <Singin onSubmit={onSubmit} />
+    <Singup onSubmit={onSubmit} />
   </React.StrictMode>
 );
 

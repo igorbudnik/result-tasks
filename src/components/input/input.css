@@ -1,0 +1,22 @@
+.error-placeholder {
+  border-color: red;
+  color: red;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.asterisk {
+  color: red;
+}
+
+.description {
+  color: gray;
+}
+
+.error {
+  color: red;
+}
